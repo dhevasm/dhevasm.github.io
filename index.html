@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografiku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="flex">
+            <div class="judul">Biografiku</div>
+            <div class="navigasi">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+            </div>
+            <div class="dropdown">
+                <button onclick="openmenu()">____<br>____<br>____</button>
+            </div>
+        </div>
+        <div class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <div id="home" style="top: 0;"></div>
+    <header>
+        <div class="wave">
+            <img src="img/wave.svg" alt="wave">
+        </div>
+        <div class="profile">
+            <div class="photo">
+                <img src="img/pp.jpg" alt="" width="200x" height="220px"
+                style="border-radius: 100%; border: 3px solid #eff6fe;">
+            </div>
+            <div class="name">
+                <h1>Ardiansyah Dheva</h1>
+                <p>Student from SMKN2 Surabaya</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- about -->
+    <div id="about"></div>
+    <main style="height: 100vh; background-color: #eff6fe; position: relative; bottom: 5px; 
+    border-bottom-right-radius: 50%; margin-bottom: 200px;">
+            <div class="text">
+                <h2>About Me</h2>
+                <div id="colom" class="flex" style="display: flex; justify-content: space-evenly; gap: 50px;
+                 text-align: justify;">
+                    <p>Saya adalah siswa kelas 11 dari SMKN 2 Surabaya.
+                        Saya tinggal di Jl. Simojawar kec. Sukomanunggal, Surabaya.  
+                        Saya lahir di kota Jombang pada tanggal 19 November tahun 2006, 
+                        pada tahun ini saya berusia 16 tahun. Saya memiliki ketertarikan 
+                        di bidang IT sejak saya masih bersekolah di jenjang SMP.</p>
+                    <p>
+                        Saya mulai bersekolah di SMKN 2 Surabaya pada tahun 2022,
+                        alasan saya memilih SMKN 2 Surabaya karena di SMKN 2 Surabaya 
+                        terdapat jurusan RPL/ Software Engineering, dimana pada saat ini
+                        saya memiliki ketertarikan di bidang IT dan juga untuk menambah
+                        wawasan saya di bidang IT. 
+                    </p>
+                </div>
+            </div>
+            <div class="vidio">
+                <div class="back">
+                    <video src="vidio.mp4" id="vid" controls></video>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- project -->
+    <div id="project"></div>
+    <div class="projek" style="height: 100vh; padding-top: 100px; margin-bottom: 200px;">    
+        <h2 style="text-align: center; margin-bottom: 20px;  
+        text-shadow: 3px 3px 3px #999;">My Project</h2>
+        <div class="master-card">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </div>
+   
+    <!-- footer -->
+    <div style="width: 100%; height: 200px; background-color: #2b88d8; bottom: 0;
+    color: #eff6fe; display: flex; justify-content: center; align-items: start; text-align: center;">
+    <p>@2023 | Made With Love <br>By Ardiansyah Dheva</p></div>
+
+    <!-- dropdown-script -->
+    <script>
+        const menu = document.querySelector('.menu');
+        const nav = document.querySelector('nav');
+        menu.style.display = "none";
+        function openmenu(){
+            if(menu.style.display == "none"){
+                menu.style.display = "flex";
+            }else{
+                menu.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
