@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ardiansyah Dhevashidqi Madany</title>
+    <meta
+      name="description"
+      content="Ardiansyah Dhevashidqi Madany's personal website"
+    />
+    <meta
+      name="keywords"
+      content="Ardiansyah Dhevashidqi Madany, personal website, web development, junior web developer, laravel, javascript, react, next, flutter, html, css, tailwindcss"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link href="/src/output.css" rel="stylesheet" />
+    <script src="/src/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="relative">
+        <div
+          class="flex flex-row justify-between items-center py-6 px-6 md:px-12 lg:px-20"
+        >
+          <h1 class="font-bold text-2xl md:text-3xl text-gray-900 z-50 pe-14">
+            Dheva.
+          </h1>
+          <ul
+            class="hidden lg:flex gap-8 xl:gap-10 py-3 px-8 xl:px-12 border border-gray-200 rounded-full shadow-md bg-white/70 backdrop-blur-sm z-50"
+            id="navbar-menu"
+          >
+            <li key="home">
+              <a
+                href="/#"
+                class="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 text-sm xl:text-base"
+              >
+                Home
+              </a>
+            </li>
+            <li key="about">
+              <a
+                href="#about"
+                class="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 text-sm xl:text-base"
+              >
+                About
+              </a>
+            </li>
+            <li key="skill">
+              <a
+                href="#skill"
+                class="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 text-sm xl:text-base"
+              >
+                Skill
+              </a>
+            </li>
+            <li key="work">
+              <a
+                href="#work"
+                class="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 text-sm xl:text-base"
+              >
+                Work
+              </a>
+            </li>
+            <li key="certificate">
+              <a
+                href="#certificate"
+                class="text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 text-sm xl:text-base"
+              >
+                Certificate
+              </a>
+            </li>
+          </ul>
+
+          <a
+            target="_blank"
+            href="https://wa.me/6283143952277"
+            class="hidden lg:block bg-gray-900 hover:bg-gray-800 text-white py-3 px-7 rounded-full shadow-md transition-all duration-200 hover:shadow-lg text-sm xl:text-base font-medium"
+          >
+            Contact Me
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section
+        class="min-h-screen flex flex-col gap-10 justify-center items-center px-6 pb-20"
+      >
+        <div class="relative">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full blur-2xl opacity-50 animate-pulse"
+          ></div>
+          <img
+            class="relative rounded-full object-cover w-48 h-48 md:w-60 md:h-60 lg:w-60 lg:h-60s shadow-2xl ring-4 ring-gray-100"
+            src="/img/profile.png"
+            alt="Profile"
+            width="200"
+            height="200"
+          />
+        </div>
+
+        <div class="flex flex-col gap-4 max-w-4xl">
+          <h1
+            class="text-4xl md:text-5xl lg:text-4xl font-bold text-center text-gray-900 leading-tight"
+          >
+            HI, I&#39;M ARDIANSYAH
+          </h1>
+          <h1
+            class="text-4xl md:text-5xl lg:text-4xl font-bold text-center text-gray-900 leading-tight"
+          >
+            DHEVASHIDQI MADANY
+          </h1>
+          <h2
+            class="text-xl md:text-2xl lg:text-3xl font-light text-center text-gray-600 mt-2"
+          >
+            Junior Web Developer Based In Surabaya
+          </h2>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md">
+          <a
+            href="#work"
+            class="group bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2 font-medium whitespace-nowrap"
+          >
+            Check My Work
+            <img
+              src="/icons/arrow-right.png"
+              alt="Download"
+              class="w-6 h-6 group-hover:translate-x-1 transition-transform"
+            />
+          </a>
+          <a
+            href="https://drive.usercontent.google.com/u/0/uc?id=1x7D_qfmpIIZmbNBAH9iJLOF0rjNzcC8p&export=download"
+            class="group border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:scale-105 flex items-center justify-center gap-2 font-medium whitespace-nowrap"
+          >
+            <img src="/icons/download.png" alt="Download" class="w-6 h-6" />
+            Download Resume
+          </a>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section
+        id="about"
+        class="min-h-screen flex items-center justify-center px-6 py-20 bg-gray-50"
+      >
+        <div class="max-w-6xl w-full">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              About Me
+            </h2>
+            <div class="w-20 h-1 bg-gray-900 mx-auto"></div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div class="space-y-6">
+              <p class="text-lg text-gray-700 leading-relaxed">
+                I&#39;m a passionate Junior Web Developer based in Surabaya,
+                specializing in creating modern, responsive, and user-friendly
+                web applications. With a strong foundation in front-end
+                technologies, I bring ideas to life through clean code and
+                intuitive design.
+              </p>
+              <p class="text-lg text-gray-700 leading-relaxed">
+                My journey in web development started with a curiosity for how
+                things work on the web, and it has evolved into a dedication to
+                crafting exceptional digital experiences. I continuously learn
+                and adapt to new technologies to stay at the forefront of web
+                development.
+              </p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-8 shadow-xl">
+              <h3 class="text-2xl font-bold text-gray-900 mb-6">Quick Facts</h3>
+              <div class="space-y-4">
+                <div
+                  class="flex justify-between items-center pb-3 border-b border-gray-200"
+                >
+                  <span class="text-gray-600 font-medium">Location</span>
+                  <span class="text-gray-900 font-semibold"
+                    >Surabaya, Indonesia</span
+                  >
+                </div>
+                <div
+                  class="flex justify-between items-center pb-3 border-b border-gray-200"
+                >
+                  <span class="text-gray-600 font-medium">Experience</span>
+                  <span class="text-gray-900 font-semibold">2+ Years</span>
+                </div>
+                <div
+                  class="flex justify-between items-center pb-3 border-b border-gray-200"
+                >
+                  <span class="text-gray-600 font-medium">Projects</span>
+                  <span class="text-gray-900 font-semibold">15+ Completed</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600 font-medium">Availability</span>
+                  <span class="text-green-600 font-semibold">Open to Work</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="grid md:grid-cols-3 gap-8">
+          {highlights.map((item, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group"
+            >
+              <div class="w-14 h-14 bg-gray-900 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <item.icon class="text-white" size={28} />
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
+              <p class="text-gray-600">{item.description}</p>
+            </div>
+          ))}
+        </div> -->
+        </div>
+      </section>
+
+      <!-- Skill -->
+      <section
+        id="skill"
+        class="min-h-screen flex items-center justify-center px-6 py-20 bg-white"
+      >
+        <div class="max-w-6xl w-full">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Skills & Expertise
+            </h2>
+            <div class="w-20 h-1 bg-gray-900 mx-auto mb-6"></div>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+              A comprehensive overview of my technical skills and proficiency
+              levels
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div
+              key="front-end"
+              class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <h3
+                class="text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-gray-900"
+              >
+                Frontend Development
+              </h3>
+              <div class="space-y-6">
+                <div key="tailwindcss">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">Tailwind CSS</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="react">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">React Js</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="next">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">Next Js</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="typescript">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">Typescript</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              key="back-end"
+              class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <h3
+                class="text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-gray-900"
+              >
+                Backend & Database
+              </h3>
+              <div class="space-y-6">
+                <div key="laravel">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">Laravel</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="node">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">Node Js</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="mysql">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">MySQL</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="Postgresql">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">PostgreSQL</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              key="other"
+              class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <h3
+                class="text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-gray-900"
+              >
+                Tools & Other
+              </h3>
+              <div class="space-y-6">
+                <div key="git">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">Git & Github</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="figma">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium">Figma</span>
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="responsive">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium"
+                      >Responsive Design</span
+                    >
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+                <div key="performance">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-800 font-medium"
+                      >performance Optimization</span
+                    >
+                    <span class="text-gray-600 text-sm font-semibold"
+                      >100%</span
+                    >
+                  </div>
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden"
+                  >
+                    <div
+                      class="bg-gradient-to-r from-gray-800 to-gray-900 h-2.5 rounded-full transition-all duration-1000 ease-out"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work -->
+      <section
+        id="work"
+        class="min-h-screen flex items-center justify-center px-6 py-20 bg-gray-50"
+      >
+        <div class="max-w-7xl w-full">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              My Work
+            </h2>
+            <div class="w-20 h-1 bg-gray-900 mx-auto mb-6"></div>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+              A collection of projects I&apos;ve built, showcasing my skills and
+              creativity
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project 1 -->
+            <div
+              key=""
+              class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+            >
+              <div class="relative overflow-hidden h-52">
+                <img
+                  src="/"
+                  alt=""
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center gap-4 pb-6"
+                >
+                  <a
+                    href=""
+                    class="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
+                    aria-label="View live demo"
+                  >
+                     <img src="/icons/external-link.png" alt="link" class="w-6 h-6" />
+                  </a>
+                  <a
+                    href=""
+                    class="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
+                    aria-label="View on GitHub"
+                  >
+                    <img src="/icons/github2.png" alt="github" class="w-6 h-6" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  {project.title}
+                </h3>
+                <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                  {project.description}
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    key=""
+                    class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
+                  >
+                    {tag}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div
+              key=""
+              class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+            >
+              <div class="relative overflow-hidden h-52">
+                <img
+                  src="/"
+                  alt=""
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center gap-4 pb-6"
+                >
+                  <a
+                    href=""
+                    class="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
+                    aria-label="View live demo"
+                  >
+                     <img src="/icons/external-link.png" alt="link" class="w-6 h-6" />
+                  </a>
+                  <a
+                    href=""
+                    class="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
+                    aria-label="View on GitHub"
+                  >
+                    <img src="/icons/github2.png" alt="github" class="w-6 h-6" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  {project.title}
+                </h3>
+                <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                  {project.description}
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    key=""
+                    class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
+                  >
+                    {tag}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- Project 3 -->
+            <div
+              key=""
+              class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+            >
+              <div class="relative overflow-hidden h-52">
+                <img
+                  src="/"
+                  alt=""
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center gap-4 pb-6"
+                >
+                  <a
+                    href=""
+                    class="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
+                    aria-label="View live demo"
+                  >
+                   <img src="/icons/external-link.png" alt="link" class="w-6 h-6" />
+                  </a>
+                  <a
+                    href=""
+                    class="bg-white text-gray-900 p-3 rounded-full hover:bg-gray-100 transition-colors"
+                    aria-label="View on GitHub"
+                  >
+                    <img src="/icons/github2.png" alt="github" class="w-6 h-6" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  {project.title}
+                </h3>
+                <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+                  {project.description}
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    key=""
+                    class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
+                  >
+                    {tag}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certificates -->
+      <section
+        id="certificate"
+        class="min-h-screen flex items-center justify-center px-6 py-20 bg-white"
+      >
+        <div class="max-w-6xl w-full">
+          <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Certificates
+            </h2>
+            <div class="w-20 h-1 bg-gray-900 mx-auto mb-6"></div>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+              Professional certifications and achievements in web development
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            
+            <div
+              key="bnsp"
+              class="bg-gradient-to-br from-gray-50 to-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group border border-gray-100"
+            >
+              <div class="relative overflow-hidden h-48">
+                <image
+                  src="/img/certificates/bnsp.png"
+                  alt="bnsp"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  width="500"
+                  height="500"
+                />
+                <div
+                  class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm p-3 rounded-full"
+                >
+                  <img src="/icons/award.png" alt="award" class="w-6 h-6" />
+                </div>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                 Certificate of Competence
+                </h3>
+                <div class="space-y-2 mb-4">
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Issued by:</span> Badan Nasional Sertifikasi Profesi
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Date:</span> January 2025
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Credential ID:</span>
+                    62090 2513 3 0125942 2025
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1Uj-V5eCHHwXOhXWtUp9AVUhDK0raibSZ/view"
+                  class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:gap-3 transition-all group/link"
+                >
+                  View Certificate
+                  <img src="/icons/external-link.png" alt="link" class="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+
+            <div
+              key="telkom"
+              class="bg-gradient-to-br from-gray-50 to-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group border border-gray-100"
+            >
+              <div class="relative overflow-hidden h-48">
+                <image
+                  src="/img/certificates/telkom.png"
+                  alt="telkom"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  width="500"
+                  height="500"
+                />
+                <div
+                  class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm p-3 rounded-full"
+                >
+                  <img src="/icons/award.png" alt="award" class="w-6 h-6" />
+                </div>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Bootcamp React JS
+                </h3>
+                <div class="space-y-2 mb-4">
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Issued by:</span> PT Telkom Indonesia
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Date:</span> Novemember 2024
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Credential ID:</span>
+                    A2400540
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1ZI1c-jlApM3XWNMGQeuuIvc2Ug2D4NTP/view"
+                  class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:gap-3 transition-all group/link"
+                >
+                  View Certificate
+                  <img src="/icons/external-link.png" alt="link" class="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+            <div
+              key="intern"
+              class="bg-gradient-to-br from-gray-50 to-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group border border-gray-100"
+            >
+              <div class="relative overflow-hidden h-48">
+                <image
+                  src="/img/certificates/ubig.png"
+                  alt="interm"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  width="500"
+                  height="500"
+                />
+                <div
+                  class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm p-3 rounded-full"
+                >
+                  <img src="/icons/award.png" alt="award" class="w-6 h-6" />
+                </div>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                 Internship Certificate
+                </h3>
+                <div class="space-y-2 mb-4">
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Issued by:</span> PT Universal Big Data
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Date:</span> December 2024
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Credential ID:</span>
+                    2412310014
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/18oDQCA4lghVzLpTNutSRO5pHQs21dlAc/view"
+                  class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:gap-3 transition-all group/link"
+                >
+                  View Certificate
+                  <img src="/icons/external-link.png" alt="link" class="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+            <div
+              key="database"
+              class="bg-gradient-to-br from-gray-50 to-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group border border-gray-100"
+            >
+              <div class="relative overflow-hidden h-48">
+                <image
+                  src="/img/certificates/bits.png"
+                  alt="database"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  width="500"
+                  height="500"
+                />
+                <div
+                  class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm p-3 rounded-full"
+                >
+                  <img src="/icons/award.png" alt="award" class="w-6 h-6" />
+                </div>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                 Certificate of Competence
+                </h3>
+                <div class="space-y-2 mb-4">
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Issued by:</span> SMKN 2 Surabaya & PT BITS Miliartha
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Date:</span> Mei 2025
+                  </p>
+                  <p class="text-gray-600 text-sm">
+                    <span class="font-semibold">Credential ID:</span>
+                    400.3.12.1/910/101.8.24/2025
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1mcqDu6UOMXPBYI8aQiwoDS0E8z9nMw4f/view"
+                  class="inline-flex items-center gap-2 text-gray-900 font-semibold hover:gap-3 transition-all group/link"
+                >
+                  View Certificate
+                  <img src="/icons/external-link.png" alt="link" class="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="bg-gray-900 text-white py-12 px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Dheva.</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Junior Web Developer passionate about creating beautiful and
+              functional web experiences.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="text-gray-400 hover:text-white transition-colors"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#skill"
+                  class="text-gray-400 hover:text-white transition-colors"
+                >
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#work"
+                  class="text-gray-400 hover:text-white transition-colors"
+                >
+                  Work
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#certificate"
+                  class="text-gray-400 hover:text-white transition-colors"
+                >
+                  Certificates
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Connect With Me</h4>
+            <div class="flex gap-4">
+              <a
+                key="github"
+                href="https://github.com/dhevasm"
+                aria-label="github"
+                target="_blank"
+                class="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition-all hover:scale-110"
+              >
+                <img src="/icons/github.png" alt="github" class="w-6 h-6" />
+              </a>
+              <a
+                key="linkedin"
+                href="https://www.linkedin.com/in/ardiansyah-dheva-3139a82b9"
+                aria-label="linkedin"
+                target="_blank"
+                class="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition-all hover:scale-110"
+              >
+                <img src="/icons/linkedin.png" alt="linkedin" class="w-6 h-6" />
+              </a>
+              <a
+                key="instagram"
+                href="https://www.instagram.com/ardiansyahd19"
+                aria-label="instagram"
+                target="_blank"
+                class="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition-all hover:scale-110"
+              >
+                <img
+                  src="/icons/instagram.png"
+                  alt="Instagram"
+                  class="w-6 h-6"
+                />
+              </a>
+              <a
+                key="email"
+                href="mailto:ardiansyahdhevashidqimadany@gmail.com"
+                aria-label="email"
+                class="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition-all hover:scale-110"
+              >
+                <img src="/icons/mail.png" alt="email" class="w-6 h-6" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-8 text-center">
+          <p class="text-gray-400">
+            <span id="year-now"></span> Ardiansyah Dhevashidqi Madany. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
